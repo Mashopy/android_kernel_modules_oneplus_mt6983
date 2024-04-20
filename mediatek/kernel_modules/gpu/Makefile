@@ -36,7 +36,6 @@ comma := ,
 PARAMS :=
 
 ifneq (,$(wildcard mt6983))
-	PARAMS += mali,mt6983,mali_valhall,mali-r38p1,mali_valhall_r38p1_mt6983
 	PARAMS += mali,mt6983,mali_valhall,mali-r32p1,mali_valhall_r32p1_mt6983
 endif
 
